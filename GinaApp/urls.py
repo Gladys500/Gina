@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.urls import path
-from GinaApp import views
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -15,4 +15,6 @@ urlpatterns = [
     path('gallery/', views.gallery,name='gallery'),
     path('menu/', views.menu,name='menu'),
     path('testimonials/', views.testimonials,name='testimonials'),
+    path('show/', views.show,name='show'),
+    path('delete/<int:id>', views.delete),
 ]

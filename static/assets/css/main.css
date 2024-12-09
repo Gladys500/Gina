@@ -19,18 +19,18 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ae6464; /* Background color for the entire website, including individual sections */
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #220b0b; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #433f39; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #1b1309; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #393737; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #323131; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --heading-color: #0c0b09; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #088080; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #f1ecec; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #0c0b09; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #0e0505;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0e0505; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-color: #0e8495;  /* The default color of the main navmenu links */
+  --nav-hover-color: #0b0306; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #0e0505; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #0e0505; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #0e0505; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -46,9 +46,9 @@
 
 .dark-background {
   --background-color: #1e160d;
-  --default-color: #ffffff;
+  --default-color: #aaa4a4;
   --heading-color: #ffffff;
-  --surface-color: #42301c;
+  --surface-color: #50cbf1;
   --contrast-color: #220b0b;
 }
 
@@ -223,8 +223,8 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   --background-color: rgba(255, 255, 255, 0);
-  --default-color: #ae6464;
-  --heading-color: #ae6464;
+  --default-color: #4acce3;
+  --heading-color: #50caca;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
@@ -1194,7 +1194,7 @@ section,
 .events {
   --default-color: #ffffff;
   --background-color: #000000;
-  --heading-color: #ffffff;
+  --heading-color: #aaa4a4;
   padding: 80px 0;
   position: relative;
 }
